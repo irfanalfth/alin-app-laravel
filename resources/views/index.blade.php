@@ -29,7 +29,7 @@
     <div id="layout-wrapper">
 
         {{-- navbar --}}
-        <header id="page-topbar">   
+        <header id="page-topbar">
             <div class="navbar-header">
                 <div class="d-flex">
                     <!-- LOGO -->
@@ -642,7 +642,7 @@
 
                     </ul>
 
-                    <div class="card sidebar-alert border-0 text-center mx-4 mb-0 mt-5">
+                    <!-- <div class="card sidebar-alert border-0 text-center mx-4 mb-0 mt-5">
                         <div class="card-body">
                             <img src="{{ asset('images/giftbox.png') }}" alt="">
                             <div class="mt-4">
@@ -654,7 +654,7 @@
                                 <a href="#!" class="btn btn-primary mt-2"><?php echo "Upgrade_Now" ?></a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <!-- Sidebar -->
             </div>

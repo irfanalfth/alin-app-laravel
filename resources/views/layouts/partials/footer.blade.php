@@ -157,8 +157,7 @@
 <div class="rightbar-overlay"></div>
 <!-- /Right-bar -->
 
-<!-- JAVASCRIPT -->
-<!-- JAVASCRIPT -->
+
 <script src="{{ asset('libs/jquery/jquery.min.js') }}"></script>
 <script src="{{ asset('libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <script src="{{ asset('libs/metismenu/metisMenu.min.js') }}"></script>
@@ -179,7 +178,8 @@
 <script src="{{ asset('js/pages/dashboard.init.js') }}"></script>
 
 <!-- App js -->
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/temp-app.js') }}"></script>
+
 
 </body>
 

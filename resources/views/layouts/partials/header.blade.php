@@ -22,6 +22,8 @@
     <link href="{{ asset('css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="{{ asset('css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+    <livewire:styles/>
+    <livewire:scripts/>
 </head>
 
 <body>
