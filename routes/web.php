@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TititController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('master.dashboard');
+
+Route::livewire('/', 'dashboard.index')->name('dashboard.index');
+Route::prefix('dashboard')->group(function(){
+    Route::livewire('/product', 'product.index')->name('product.index');
 });
+
+
+
